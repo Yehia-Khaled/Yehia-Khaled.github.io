@@ -69,5 +69,11 @@ body {
 
 #flex-cont{
  display: flex;
- flex-wrap: wrap;
+flex-direction: row;
+  /*margin: 10px 10px 10px 10px;*/
+}
+@media screen and (max-width: 700px) {
+  .flex-cont {
+    flex-direction: column;
+  }
 }
