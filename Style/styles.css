@@ -66,3 +66,8 @@ body {
   border: 2px solid #f5ba09;
   border-radius: 0.5rem;
 }
+
+#flex-cont{
+ display: flex;
+ flex-wrap: wrap;
+}

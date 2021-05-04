@@ -40,18 +40,22 @@
         <h5 class="text-white d-inline pl-2"> Portfolio</h5>
       </div>
       <div class="col-6 pt-2">
-        <div class="col-3 d-inline">
-          <a href="#about" class="text-white navigation-link">About </a>
+        <div class="row flex-cont">
+          <div class="col-2 d-inline m-2">
+            <a href="#about" class="text-white navigation-link">About</a>
+          </div>
+          <div class="col-2 d-inline m-2">
+            <a href="#projects" class="text-white navigation-link">Projects</a>
+          </div>
+          <div class="col-2 d-inline m-2">
+            <a href="#social-media" class="text-white navigation-link">Social Media</a>
+          </div>
+          <!--resume -->
+          <!-- <div class="col-3 d-inline">
+               <a href="#resume" class="text-white navigation-link">Resume </a>
+           </div>-->
         </div>
-        <div class="col-3 d-inline">
-          <a href="#projects" class="text-white navigation-link">Projects </a>
-        </div>
-        <div class="col-3 d-inline">
-          <a href="#social-media" class="text-white navigation-link">Social Media </a>
-        </div>
-        <!-- <div class="col-3 d-inline">
-             <a href="#resume" class="text-white navigation-link">Resume </a>
-         </div>-->
+
       </div>
     </div>
   </nav>
@@ -87,8 +91,8 @@
 </section>
 <section id="projects" class="container mt-3 pt-5">
   <h1 class="text-warning mb-3 pb-2">My Projects</h1>
-  <div class="row">
-    <div class="col-4 mb-5">
+  <div  class="row flex-cont">
+    <div class="col-6 mb-5 m-2">
       <div class="card" style="width: 18rem;">
         <img src="Style/images/2021-04-30%2007_39_34-Yehia%20Landing%20Project.png" class="card-img-top p-2" alt="..." style="height: 12rem;">
         <div class="card-body">
@@ -99,7 +103,7 @@
         </div>
       </div>
     </div>
-    <div class="col-4 mb-5">
+    <div class="col-6 mb-5 m-2">
       <div class="card" style="width: 18rem;">
         <img src="Style/images/2021-04-30%2007_29_39-Window.png" class="card-img-top p-2" alt="app image" style="height: 12rem;">
         <div class="card-body">
@@ -112,11 +116,9 @@
         </div>
       </div>
     </div>
-
-
   </div>
 </section>
-<section id="social-media" class="container-fluid p-4">
+<section id="social-media" class="container-fluid p-4 flex-cont">
   <div class="container text-white">
     <h4 class="text-warning"> Social Media</h4>
     <h1 class="m-heading"> Let's be Friends</h1>
@@ -142,30 +144,30 @@
           </div>
         </div>
       </div>
-      <div class="col-2.4 media-link btn " href="https://www.facebook.com/yehia.khaled.77/">
+      <div class="col-2.4 media-link btn "  >
         <div class="row">
           <div class="col-6 d-flex justify-content-start">
-            <h3 class="pt-2 m-0 text-white">Facebook</h3>
+            <h3> <a href="https://www.facebook.com/yehia.khaled.77/" class="pt-2 m-0 text-white">Facebook </a></h3>
           </div>
           <div class="col-6 d-flex justify-content-end align-items-center">
             <i class="fab fa-facebook fa-2x text-secondary"></i>
           </div>
         </div>
       </div>
-      <div class="col-2.4 media-link btn " href="https://www.behance.net/yehiakhaled">
+      <div class="col-2.4 media-link btn " >
         <div class="row">
           <div class="col-6 d-flex justify-content-start">
-            <h3 class="pt-2 m-0 text-white">Behance</h3>
+             <h3> <a href="https://www.behance.net/yehiakhaled" class="pt-2 m-0 text-white">Behance </a></h3>
           </div>
           <div class="col-6 d-flex justify-content-end align-items-center">
             <i class="fab fa-behance-square fa-2x text-secondary"></i>
           </div>
         </div>
       </div>
-      <div class="col-2.4 media-link btn btn-warning " href="https://yehiakhaled922@gmail.com/">
+      <div class="col-2.4 media-link btn btn-warning ">
         <div class="row">
           <div class="col-6 d-flex justify-content-start">
-            <h3 class="pt-2 m-0 text-dark">Email</h3>
+            <h3  id="email" class="pt-2 m-0 text-dark ">Email</h3>
           </div>
           <div class="col-6 d-flex justify-content-end align-items-center">
             <i class="fas fa-envelope  fa-2x text-secondary"></i>
