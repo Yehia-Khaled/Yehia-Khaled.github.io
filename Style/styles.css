@@ -78,11 +78,3 @@ flex-direction: row;
   }
 }
 
-.counter-item {
-    background-color: #ccc;
-    padding: 5px;
-}
-
-#incrementCounter {
-    margin-top: 20px;
-}
