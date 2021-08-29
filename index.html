@@ -175,7 +175,26 @@
     </div>
   </div>
 </section>
-
+<section>
+  <!--
+    PeoplePerHour Profile Widget
+    The div#pph-hire me is the element
+    where the iframe will be inserted.
+    You may move this element wherever
+    you need to display the widget
+-->
+  <div id="pph-hireme"></div>
+  <script type="text/javascript">
+    (function(d, s) {
+      var useSSL = 'https:' == document.location.protocol;
+      var js, where = d.getElementsByTagName(s)[0],
+              js = d.createElement(s);
+      js.src = (useSSL ? 'https:' : 'http:') +  '//www.peopleperhour.com/hire/2011999944/5648343.js?width=245&height=320&orientation=vertical&theme=dark&rnd='+parseInt(Math.random()*10000, 10);
+      try { where.parentNode.insertBefore(js, where); } catch (e) { if (typeof console !== 'undefined' && console.log && e.stack) { console.log(e.stack); } }
+    }(document, 'script'));
+  </script>
+<!--  TODO visitor counter-->
+</section>
 <footer>
   <div class="container text-muted text-center pt-3 mt-5  ">
     <h5> Copyright &copy; 2021 | <a href="#" class="text-white">Yehia Khaled </a></h5>
